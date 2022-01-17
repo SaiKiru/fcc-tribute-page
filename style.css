@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oleo+Script&family=Source+Sans+Pro&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+#main {
+    background-color: hsl(17, 70%, 85%);
+    color: hsl(0, 37%, 12%);
 }
 
 /* HEADER STYLING START */
@@ -19,12 +27,19 @@ header {
 #title {
     color: #eee;
     font-size: 72px;
-    margin-bottom: 16px;
+    font-family: "Oleo Script", serif;
 }
 
-#title-container p {
+#title-sub {
     color: #bbb;
     font-size: 32px;
+    font-family: "Bebas Neue", serif;
+}
+
+#title-lifespan {
+    color: #bbb;
+    font-size: 24px;
+    font-family: "Bebas Neue", serif;
 }
 
 img {
@@ -43,3 +58,38 @@ img {
 }
 
 /* HEADER STYLING END */
+
+#tribute-info {
+    display: block;
+    padding: 32px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+
+#tribute-info p {
+    margin-bottom: 16px;
+}
+
+#img-div {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#image {
+    width: 250px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 820px) {
+    #title {
+        font-size: 52px;
+    }
+
+    #title-sub {
+        font-size: 24px;
+    }
+
+    #title-lifespan {
+        font-size: 18px;
+    }
+}
