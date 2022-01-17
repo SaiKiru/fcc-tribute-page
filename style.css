@@ -14,7 +14,6 @@ header {
     position: absolute;
     align-self: center;
     margin-left: 5%;
-    z-index: 1;
 }
 
 #title {
