@@ -7,8 +7,7 @@
 }
 
 #main {
-    background-color: hsl(17, 70%, 85%);
-    color: hsl(0, 37%, 12%);
+    background-color: hsl(29, 100%, 91%);
 }
 
 /* HEADER STYLING START */
@@ -16,6 +15,7 @@
 header {
     width: 100%;
     display: flex;
+    background-color: rgb(165, 22, 134);
 }
 
 #title-container {
@@ -55,15 +55,19 @@ img {
     filter: 
         brightness(40%)
         contrast(110%);
+    opacity: 90%;
 }
 
 /* HEADER STYLING END */
 
 #tribute-info {
+    margin: auto;
     display: block;
     padding: 32px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Source Sans Pro';
+    color: hsl(0, 37%, 12%);
+    max-width: 720px;
 }
 
 #tribute-info p {
@@ -80,9 +84,27 @@ img {
     margin-bottom: 8px;
 }
 
+#wikipedia-referral {
+    margin-top: 32px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    font-weight: 900;
+    color: hsl(325, 75%, 30%);
+}
+
+
 @media screen and (max-width: 820px) {
+    #tribute-info {
+        font-size: 16px;
+        max-width: 620px;
+    }
+}
+
+@media screen and (max-width: 640px) {
     #title {
-        font-size: 52px;
+        font-size: 42px;
     }
 
     #title-sub {
